@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Pédia</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="app/css/app.css">
+
+    <style type="text/tailwindcss" src="app/css/app.css"></style>
+</head>
+
+<body class="font-serif">
+    <div class="flex">
+        <aside class="hidden md:block mt-4 ml-4 w-52 p-4">
+            <div class="logo flex flex-col items-center mb-4">
+                <img class="w-32 h-32 rounded-full object-cover" src="https://gravatar.com/avatar/d03102a2af5b68300b929587f1a0a519fe00d7578ab0c5c6bc3238b064fbb618" alt="Ryan Pédia">
+                <p class="font-bold text-lg text-center">Ryan Pédia</p>
+            </div>
+
+            <div class="nav">
+                <ul class="">
+                    <li class="font-semibold">
+                        Página principal
+                    </li>
+                    <ul class="ml-2 mt-2 space-y-2 text-blue-700  hover:text-blue-900">
+                        <li>
+                            <a href="#biografia">Biografia</a>
+                        </li>
+                        <ul class="ml-2 mt-2 space-y-2 text-blue-700  hover:text-blue-900">
+                            <li>
+                                <a href="#">Experiência Profissional</a>
+                            </li>
+
+                            <li>
+                                <a href="#educacao">Educação</a>
+                            </li>
+
+
+
+
+                        </ul>
+                        <li>
+                            <a href="#projetos">Projetos Destacados</a>
+                        </li>
+                        <li>
+                            <a href="#">Idiomas</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Conteúdo principal -->
+        <main class="flex flex-1 p-4 border-l border-gray-300">
+
+            <div class="flex-1 mr-5">
+
+                <h1 class="font-bold text-3xl">Ryan Pereira (oRyanPS)</h1>
+                <hr class="my-4 border-2 border-gray-200">
+                <p class="mb-5">Este usuário é um desenvolvedor de software com foco em treinamentos e criação de
+                    conteúdo.</span>
+                <p class="text-justify">
+                    Olá! Sou Ryan Pereira, também conhecido como oRyanPS.
+                    Sou um desenvolvedor de software apaixonado por tecnologia e inovação, com sede em São Paulo,
+                    Brasil.
+                    Minha atuação se concentra em redação de conteúdo técnico e gerenciamento de equipes.
+                    Tenho paixão por ensinar e compartilhar meu conhecimento.
+                </p>
+
+                <section id="biografia">
+                    <p class="font-semibold text-2xl border-b border-gray-300 mt-4 mb-2">
+                        Biografia
+                    </p>
+                    <section class="experiencia">
+                        <p class="text-xl mt-4 mb-2">
+                            Experiência Profissional
+                        </p>
+                        <ul class="ml-2 mt-2 space-y-2 pl-4 list-disc">
+                            <li><span class="font-semibold">Assistente de Suporte</span> na <a
+                                    class="text-blue-700  hover:text-blue-900" target="_blank"
+                                    href="https://www.solution-sp.com.br/">Solution. </a> - Infra de Redes e Help Desk -
+                                atual desde 2026</li>
+                            <li><span class="font-semibold">Professor de T.I</span> na <a
+                                    class="text-blue-700  hover:text-blue-900" target="_blank"
+                                    href="https://www.linkedin.com/company/28502452/">Liceu Brasil</a> - Treinamento de
+                                Informática e Man. de Computadores - 2023 à 2026</li>
+                            <li><span class="font-semibold">Suporte ao Cliente</span> na <a
+                                    class="text-blue-700  hover:text-blue-900" target="_blank"
+                                    href="https://www.linkedin.com/company/107294216/">BedHosting BR</a> - Atendimento
+                                ao cliente com suporte técnico - 2023 à 2025</li>
+                        </ul>
+                    </section>
+
+                    <section id="educacao">
+                        <p class="text-xl mt-4 mb-2">
+                            Educação
+                        </p>
+                        <ul class="ml-2 mt-2 space-y-2 pl-4 list-disc">
+                            <li>Graduação em <span class="font-semibold">Análise e Desenvolvimento de Sistemas</span> -
+                                <a class="text-blue-700  hover:text-blue-900" target="_blank"
+                                    href="https://www.linkedin.com/school/74496875/">Centro Universitário UniFatecie</a>
+                            </li>
+                            <li>Técnico em <span class="font-semibold">Desenvolvimento de Sistemas</span> - <a
+                                    class="text-blue-700  hover:text-blue-900" target="_blank"
+                                    href="https://www.linkedin.com/school/24978546/">ETEC de São Paulo</a></li>
+                        </ul>
+                    </section>
+                </section>
+
+                <section id="projetos">
+                    <p class="font-semibold text-2xl border-b border-gray-300 mt-4 mb-2">
+                        Projetos Destacados
+                    </p>
+                    <ul class="ml-2 mt-2 pl-4 list-disc">
+                        <li class="mt-2"><span class="font-semibold">{ZC} Bukkit/Spigot Community</span> - Uma
+                            comunidade com foco em desenvolvimento e suporte para servidores de Minecraft. - <a
+                                class="text-blue-700  hover:text-blue-900" target="_blank"
+                                href="https://discord.gg/aqnNJAPYH9">Acessar</a></li>
+                        <li class="ml-4 list-none"><span class="font-semibold">Ancião da Vila</span> - Uma aplicação
+                            responsável por gerenciar a {ZC} Bukkit/Spigot Community.</li>
+                        <li class="mt-2"><span class="font-semibold">RichPresence-Maker</span> - Um projeto para
+                            criar/testar presenças no Discord. - <a class="text-blue-700  hover:text-blue-900"
+                                target="_blank" href="https://github.com/oryanps/RichPresence-Maker">Acessar</a>
+                        </li>
+                        <li class="mt-2">
+                            <span class="font-semibold">WAAP</span>
+                            - Um site para adoção de animais. -
+                            <a class="text-blue-700  hover:text-blue-900" target="_blank"
+                                href="https://github.com/RyanPereiraS/WAAP">
+                                Acessar
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="idiomas">
+                    <p class="font-semibold text-2xl border-b border-gray-300 mt-4 mb-2">
+                        Idiomas
+                    </p>
+                    <ul class="ml-2 mt-2 pl-4 list-disc">
+                        <li>Português - Nativo</li>
+                        <li>Inglês - A2 Key</li>
+                    </ul>
+                </section>
+
+                <section id="contato">
+                    <p class="font-semibold text-2xl border-b border-gray-300 mt-4 mb-2">
+                        Contatos e Links externos
+                    </p>
+                    <ul class="ml-2 mt-2 pl-4 list-disc">
+                        <li>Email: <a class="text-blue-700  hover:text-blue-900" target="_blank"
+                                href="mailto:contato@oryanps.com.br">contato@oryanps.com.br</a></li>
+                        <li>LinkedIn: <a class="text-blue-700  hover:text-blue-900" target="_blank"
+                                href="https://www.linkedin.com/in/oRyanpS/">
+                                oRyanPS
+                            </a>
+                        </li>
+                        <li>GitHub: <a class="text-blue-700  hover:text-blue-900" target="_blank"
+                                href="https://github.com/oryanps">
+                                oRyanPS
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
