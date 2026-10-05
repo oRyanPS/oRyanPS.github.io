@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oryanps.com.br/sitemap.xml
