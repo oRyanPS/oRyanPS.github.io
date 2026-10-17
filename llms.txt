@@ -1,0 +1,23 @@
+
+# Ryan Pédia
+
+> Portfólio profissional de Ryan Pereira, desenvolvedor Back-End e profissional de tecnologia da informação.
+
+O Ryan Pédia reúne informações sobre a trajetória profissional, competências técnicas e projetos de desenvolvimento de software de Ryan Pereira.
+
+## Perfil profissional
+
+- [Página inicial](https://oryanps.com.br/): apresentação e informações gerais.
+- [LinkedIn](https://www.linkedin.com/in/oryanps/): perfil profissional de Ryan Pereira.
+
+## Projetos
+
+- [TelemetryAgent](https://github.com/oRyanPS/TelemetryAgent): projeto de monitoramento e coleta de telemetria de computadores.
+
+## Tecnologias
+
+PHP, Java, SQL, Laravel, desenvolvimento Back-End, automação e monitoramento de sistemas.
+
+## Conteúdo e utilização
+
+As páginas públicas deste site podem ser consultadas para compreender o perfil profissional e os projetos descritos. Consulte os termos e as políticas aplicáveis antes de reutilizar conteúdo.
