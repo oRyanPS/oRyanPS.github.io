@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -38,8 +38,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="app/css/app.css">
 
-    <style type="text/tailwindcss" src="app/css/app.css"></style>
-
     <meta name="description"
         content="Ryan Pédia é uma enciclopédia pessoal sobre Ryan Pereira, seus projetos, conhecimentos, experiências profissionais e atuação em desenvolvimento de software, tecnologia e comunidades.">
 
@@ -72,49 +70,44 @@
         ]
     }
     </script>
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0YSR5C19L"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0YSR5C19L"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'G-B0YSR5C19L');
-</script>
+        gtag('config', 'G-B0YSR5C19L');
+    </script>
+</head>
+
 
 <body class="font-serif">
     <div class="flex">
         <aside class="hidden md:block mt-4 ml-4 w-52 p-4">
             <div class="logo flex flex-col items-center mb-4">
-                <img class="w-32 h-32 rounded-full object-cover"
-                    src="https://gravatar.com/avatar/d03102a2af5b68300b929587f1a0a519fe00d7578ab0c5c6bc3238b064fbb618"
-                    alt="Ryan Pédia">
+                <img class="w-32 h-32 rounded-full object-cover" src="./app/assets/oryanpspedia.png" alt="Ryan Pédia">
                 <p class="font-bold text-lg text-center">Ryan Pédia</p>
             </div>
 
             <div class="nav">
-                <ul class="">
+                <ul>
                     <li class="font-semibold">
                         Página principal
                     </li>
                     <ul class="ml-2 mt-2 space-y-2 text-blue-700  hover:text-blue-900">
                         <li>
                             <a href="#biografia">Biografia</a>
+                            <ul class="ml-2 mt-2 space-y-2 text-blue-700  hover:text-blue-900">
+                                <li>
+                                    <a href="#">Experiência Profissional</a>
+                                </li>
+
+                                <li>
+                                    <a href="#educacao">Educação</a>
+                                </li>
+                            </ul>
                         </li>
-                        <ul class="ml-2 mt-2 space-y-2 text-blue-700  hover:text-blue-900">
-                            <li>
-                                <a href="#">Experiência Profissional</a>
-                            </li>
-
-                            <li>
-                                <a href="#educacao">Educação</a>
-                            </li>
-
-
-
-
-                        </ul>
                         <li>
                             <a href="#projetos">Projetos Destacados</a>
                         </li>
@@ -188,15 +181,17 @@
                         Projetos Destacados
                     </p>
                     <ul class="ml-2 mt-2 pl-4 list-disc">
-                        <li class="mt-2"><span class="font-semibold">Telemetry Agent</span> - um agente de monitoramento desenvolvido para coletar e transmitir informações de hardware, sistema operacional e desempenho de computadores para uma plataforma centralizada de gerenciamento. -
+                        <li class="mt-2"><span class="font-semibold">Telemetry Agent</span> - um agente de monitoramento
+                            desenvolvido para coletar e transmitir informações de hardware, sistema operacional e
+                            desempenho de computadores para uma plataforma centralizada de gerenciamento. -
                             <a class="text-blue-700  hover:text-blue-900" target="_blank"
-                                href="https://github.com/oRyanPS/TelemetryAgent">Acessar
+                                href="https://github.com/oRyanPS/TelemetryAgent">Acessar TelemetryAgent
                             </a>
                         </li>
                         <li class="mt-2"><span class="font-semibold">{ZC} Bukkit/Spigot Community</span> - Uma
                             comunidade com foco em desenvolvimento e suporte para servidores de Minecraft. -
                             <a class="text-blue-700  hover:text-blue-900" target="_blank"
-                                href="https://discord.gg/aqnNJAPYH9">Acessar
+                                href="https://discord.gg/aqnNJAPYH9">Acessar {ZC} Bukkit/Spigot Community
                             </a>
                         </li>
 
@@ -204,14 +199,15 @@
                             responsável por gerenciar a {ZC} Bukkit/Spigot Community.</li>
                         <li class="mt-2"><span class="font-semibold">RichPresence-Maker</span> - Um projeto para
                             criar/testar presenças no Discord. - <a class="text-blue-700  hover:text-blue-900"
-                                target="_blank" href="https://github.com/oryanps/RichPresence-Maker">Acessar</a>
+                                target="_blank" href="https://github.com/oryanps/RichPresence-Maker">Acessar
+                                RichPresence-Maker</a>
                         </li>
                         <li class="mt-2">
                             <span class="font-semibold">WAAP</span>
                             - Um site para adoção de animais. -
                             <a class="text-blue-700  hover:text-blue-900" target="_blank"
                                 href="https://github.com/RyanPereiraS/WAAP">
-                                Acessar
+                                Acessar WAAP
                             </a>
                         </li>
                     </ul>
